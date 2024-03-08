@@ -1,0 +1,12 @@
+server:
+  port: 1919
+
+# config server configuration below
+spring:
+  cloud:
+    config:
+      server:
+        bootstrap: true
+        git:
+          default-label: master
+          uri: https://github.com/Maharana-Pratap/cloud-config-example
