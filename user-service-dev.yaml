@@ -1,3 +1,12 @@
 server:
   port: 1010
 message: I am from user-dve!!
+
+# application-dev.yml
+spring:
+  config:
+    activate:
+      on-profile: dev
+message: This is the development profile
+  
+
