@@ -3,3 +3,9 @@ server:
 message: "I am from user-service-qa environment"
 # config server configuration below
 
+spring:
+  config:
+    activate:
+      on-profile: qa
+message: "This is the QA profile"
+
