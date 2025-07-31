@@ -7,5 +7,5 @@ spring:
   config:
     activate:
       on-profile: qa
-message: "This is the QA profile"
+
 
