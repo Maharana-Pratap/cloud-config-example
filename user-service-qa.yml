@@ -2,11 +2,4 @@ server:
   port: 1919
 message: "I am from user-service-qa environment"
 # config server configuration below
-spring:
-  cloud:
-    config:
-      server:
-        bootstrap: true
-        git:
-          default-label: master
-          uri: https://github.com/Maharana-Pratap/cloud-config-example
+
