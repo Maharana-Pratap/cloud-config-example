@@ -1,6 +1,6 @@
 server:
   port: 1919
-
+message: "I am from user-service-qa environment"
 # config server configuration below
 spring:
   cloud:
