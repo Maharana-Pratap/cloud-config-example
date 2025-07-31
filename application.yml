@@ -3,12 +3,3 @@ global:
   user: Maharana
   password: premraj@1112
   email: maharana1982@gmail.com
-
-# application-dev.yml
-spring:
-  config:
-    activate:
-      on-profile: dev
-message: This is the development profile
-  
-
