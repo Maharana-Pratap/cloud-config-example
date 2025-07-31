@@ -2,4 +2,4 @@ server:
   port: 1010
 
 
-message: "I am from user-dve environment"
+message: I am from user-dve environment
